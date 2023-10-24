@@ -26,5 +26,25 @@ namespace PictureViewer
         {
 
         }
+
+        private void showBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bgBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -104,6 +104,7 @@
             this.showBtn.TabIndex = 0;
             this.showBtn.Text = "사진 표시";
             this.showBtn.UseVisualStyleBackColor = true;
+            this.showBtn.Click += new System.EventHandler(this.showBtn_Click);
             // 
             // clearBtn
             // 
@@ -114,6 +115,7 @@
             this.clearBtn.TabIndex = 1;
             this.clearBtn.Text = "사진 지우기";
             this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // bgBtn
             // 
@@ -124,6 +126,7 @@
             this.bgBtn.TabIndex = 2;
             this.bgBtn.Text = "배경색 설정";
             this.bgBtn.UseVisualStyleBackColor = true;
+            this.bgBtn.Click += new System.EventHandler(this.bgBtn_Click);
             // 
             // closeBtn
             // 
@@ -134,6 +137,7 @@
             this.closeBtn.TabIndex = 3;
             this.closeBtn.Text = "닫기";
             this.closeBtn.UseVisualStyleBackColor = true;
+            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
             // openFileDialog1
             // 
